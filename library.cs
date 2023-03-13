@@ -16,9 +16,9 @@ namespace @class
         public library() { }
         public library(string title, double address, double yearofopening)
         {
-            Title = title;
-            Address = address;
-            YearOfOpening = yearofopening;
+            //Title = title;
+            //Address = address;
+            //YearOfOpening = yearofopening;
         }
 
         
@@ -32,10 +32,10 @@ namespace @class
             Console.Write("Введите год открытия: ");
             YearOfOpening = double.Parse(Console.ReadLine());
         }
-        public void Output()
-        {
-            Console.WriteLine("Название " + Title + "\nПлощадь: " + Address + "\n Продолжительность" + YearOfOpening);
-        }
+        //public void Output()
+        //{
+        //    Console.WriteLine("Название " + Title + "\nПлощадь: " + Address + "\n Продолжительность" + YearOfOpening);
+        //}
     }
 
 }

@@ -12,7 +12,7 @@ namespace @class
         {
             library library = new library();
             library.Input();
-            library.Output();
+            //library.Output();
         }
     }
 }
